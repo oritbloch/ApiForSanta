@@ -1,2 +1,12 @@
 # ApiForSanta
- The Santa`s mail is overloaded with letters from children. So, one day he decides to move his old school post office to the cloud. Santa asks you to help him build API for a new app. The app should be able to receive children requests for gifts, store them and show the final list. Santa wants to satisfy all the requests, but he has a limited budget for this year, therefore you should check that final gift list will be affordable. 
+ <b>There are 3 projects in the solution:</b><br/>
+ <br/>1. DBContextMigrations - for the entity framework update database operations.
+ <br/>2. RequestsForSanta - The main project which includes the controllers and models.
+ <br/>3. TestRequestsForSanta - unit testing project.
+ The controllers are divided for 2 endpoints: one is for the children requests and one is for Santa only.
+ <br/><br/>
+ The testing project use the controllers for checking.
+ I tried to use HttpClient instead and check with JSON but it didn't work so I gave up and wrote the testing method with the controllers.
+ 
+ Have fun!<br/>
+ Orit
